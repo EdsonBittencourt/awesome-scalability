@@ -1,99 +1,104 @@
 [![Logo](/logo.png)](http://awesome-scalability.com/)
 
-An updated and organized reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
+Uma lista atualizada e organizada para ilustrar os padrões de sistemas escaláveis, confiáveis e de alto desempenho em grande escala. Os conceitos são explicados nos artigos de engenheiros proeminentes e referências confiáveis. Estudos de caso são baseados em sistemas testados em batalha que atendem a milhões ou bilhões de usuários.
 
-#### If your system goes slow
-> Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some [design principles](#principle) and checking how [scalability](#scalability) and [performance](#performance) problems are solved at tech companies. The section of [intelligence](#intelligence) are created for those who work with data and machine learning at big (data) and deep (learning) scale.
+#### Se o seu sistema está lento
+> Compreenda seus problemas: problema de escalabilidade (rápido para um único usuário, mas lento sob carga pesada) ou problema de desempenho (lento para um único usuário) ao revisar alguns [princípios de design](#principle) e verificar como problemas de [escalabilidade](#scalability) e [desempenho](#performance) são resolvidos em empresas de tecnologia. A seção sobre [inteligência](#intelligence) foi criada para aqueles que trabalham com dados e aprendizado de máquina em grande (dados) e profundo (aprendizado) escala.
 
-#### If your system goes down
-> "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, former CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
+#### Se o seu sistema está fora do ar
+> "Mesmo que você perca tudo um dia, você pode construir tudo novamente se mantiver a calma!" - Thuan Pham, ex-CTO do Uber. Portanto, mantenha a calma e leve em consideração as questões de [disponibilidade](#availability) e [estabilidade](#stability)!
 
-#### If you are having a system design interview
-> Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. Good luck!
+#### Se você está enfrentando uma entrevista de projeto de sistema
+> Dê uma olhada em algumas [notas de entrevista](#interview) e [arquiteturas do mundo real com diagramas completos](#architecture) para obter uma visão abrangente antes de projetar seu sistema no quadro branco. Você pode conferir algumas [palestras](#talk) de engenheiros de gigantes da tecnologia para saber como eles constroem, escalonam e otimizam seus sistemas. Boa sorte!
 
-#### If you are building your dream team
-> The goal of scaling team is not growing team size but increasing team output and value. You can find out how tech companies reach that goal in various aspects: hiring, management, organization, culture, and communication in the [organization](#organization) section.
+#### Se você está montando sua equipe dos sonhos
+> O objetivo de dimensionar uma equipe não é aumentar o tamanho da equipe, mas aumentar a produção e o valor da equipe. Você pode descobrir como as empresas de tecnologia alcançam esse objetivo em vários aspectos: contratação, gestão, organização, cultura e comunicação na seção de [organização](#organization).
 
-#### Community power
+#### Poder da comunidade
 
-> Contributions are greatly welcome! You may want to take a look at the [contribution guidelines](CONTRIBUTING.md). If you see a link here that is no longer maintained or is not a good fit, please submit a pull request!
+> Contribuições são muito bem-vindas! Você pode dar uma olhada nas [diretrizes de contribuição](CONTRIBUTING.md). Se você encontrar um link aqui que não está mais sendo mantido ou não se encaixa bem, por favor, envie uma solicitação de pull!
 
-> Many long hours of hard work have gone into this project. If you find it helpful, please share on Facebook, [on Twitter](https://ctt.ec/V8B2p), [on Weibo](http://t.cn/RnjFLCB), or on your chat groups! Knowledge is power, knowledge shared is power multiplied. Thank you!
+> Muitas horas de trabalho árduo foram dedicadas a este projeto. Se você achar útil, compartilhe no Facebook, [no Twitter](https://ctt.ec/V8B2p), [no Weibo](http://t.cn/RnjFLCB) ou em seus grupos de chat! Conhecimento é poder, conhecimento compartilhado é poder multiplicado. Obrigado!
 
-## Content
-- [Principle](#principle)
-- [Scalability](#scalability)
-- [Availability](#availability)
-- [Stability](#stability)
-- [Performance](#performance)
-- [Intelligence](#intelligence)
-- [Architecture](#architecture)
-- [Interview](#interview)
-- [Organization](#organization)
-- [Talk](#talk)
-- [Book](#book)
+## Conteúdo
+- [Princípio](#principle)
+- [Escalabilidade](#scalability)
+- [Disponibilidade](#availability)
+- [Estabilidade](#stability)
+- [Desempenho](#performance)
+- [Inteligência](#intelligence)
 
-## Principle
-* [Lessons from Giant-Scale Services - Eric Brewer, UC Berkeley & Google](https://people.eecs.berkeley.edu/~brewer/papers/GiantScale-IEEE.pdf)
-* [Designs, Lessons and Advice from Building Large Distributed Systems - Jeff Dean, Google](https://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf)
-* [How to Design a Good API & Why it Matters - Joshua Bloch, CMU & Google](https://www.infoq.com/presentations/effective-api-design)
-* [On Efficiency, Reliability, Scaling - James Hamilton, VP at AWS](http://mvdirona.com/jrh/work/)
-* [Principles of Chaos Engineering](https://www.usenix.org/conference/srecon17americas/program/presentation/rosenthal)
-* [Finding the Order in Chaos](https://www.usenix.org/conference/srecon16/program/presentation/lueder)
+
+- [Arquitetura](#architecture)
+- [Entrevista](#interview)
+- [Organização](#organization)
+- [Palestra](#talk)
+- [Livro](#book)
+
+## Princípio
+* [Lições de Serviços em Escala Gigantesca - Eric Brewer, UC Berkeley e Google](https://people.eecs.berkeley.edu/~brewer/papers/GiantScale-IEEE.pdf)
+* [Projetando, Lições e Conselhos para Construção de Sistemas Distribuídos em Grande Escala - Jeff Dean, Google](https://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf)
+* [Como Projetar uma Boa API e Por que Isso Importa - Joshua Bloch, CMU e Google](https://www.infoq.com/presentations/effective-api-design)
+* [Sobre Eficiência, Confiabilidade e Escalonamento - James Hamilton, VP na AWS](http://mvdirona.com/jrh/work/)
+* [Princípios da Engenharia do Caos](https://www.usenix.org/conference/srecon17americas/program/presentation/rosenthal)
+* [Encontrando a Ordem no Caos](https://www.usenix.org/conference/srecon16/program/presentation/lueder)
 * [The Twelve-Factor App](https://12factor.net/)
-* [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* [High Cohesion and Low Coupling](http://www.math-cs.gordon.edu/courses/cs211/lectures-2009/Cohesion,Coupling,MVC.pdf)
-* [Monoliths and Microservices](https://medium.com/@SkyscannerEng/monoliths-and-microservices-8c65708c3dbf)
-* [CAP Theorem and Trade-offs](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
-* [CP Databases and AP Databases](https://blog.andyet.com/2014/10/01/right-database)
-* [Stateless vs Stateful Scalability](http://ithare.com/scaling-stateful-objects/)	
-* [Scale Up vs Scale Out](https://www.brianjgraf.com/scalability-scale-up-scale-out-care/)
-* [Scale Up vs Scale Out: Hidden Costs](https://blog.codinghorror.com/scaling-up-vs-scaling-out-hidden-costs/)
-* [ACID and BASE](https://neo4j.com/blog/acid-vs-base-consistency-models-explained/)
-* [Blocking/Non-Blocking and Sync/Async](https://blogs.msdn.microsoft.com/csliu/2009/08/27/io-concept-blockingnon-blocking-vs-syncasync/)
-* [Performance and Scalability of Databases](https://use-the-index-luke.com/sql/testing-scalability)
-* [Database Isolation Levels and Effects on Performance and Scalability](http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html)
-* [The Probability of Data Loss in Large Clusters](https://martin.kleppmann.com/2017/01/26/data-loss-in-large-clusters.html)
-* [Data Access for Highly-Scalable Solutions: Using SQL, NoSQL, and Polyglot Persistence](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn271399(v=pandp.10))
-* [SQL vs NoSQL](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/)
-* [SQL vs NoSQL - Lesson Learned at Salesforce](https://engineering.salesforce.com/sql-or-nosql-9eaf1d92545b)
-* [NoSQL Databases: Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
-* [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
-* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
-* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
-* [Don’t be tricked by the Hashing Trick](https://booking.ai/dont-be-tricked-by-the-hashing-trick-192a6aae3087)
-* [Uniform Consistent Hashing at Netflix](https://medium.com/netflix-techblog/distributing-content-to-open-connect-3e3e391d4dc9)
-* [Eventually Consistent - Werner Vogels, CTO at Amazon](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
-* [Cache is King](https://www.stevesouders.com/blog/2012/10/11/cache-is-king/)
-* [Anti-Caching](https://www.the-paper-trail.org/post/2014-06-06-paper-notes-anti-caching/)
-* [Understand Latency](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
-* [Latency Numbers Every Programmer Should Know](http://norvig.com/21-days.html#answers)
-* [The Calculus of Service Availability](https://queue.acm.org/detail.cfm?id=3096459&__s=dnkxuaws9pogqdnxmx8i)
-* [Architecture Issues When Scaling Web Applications: Bottlenecks, Database, CPU, IO](http://highscalability.com/blog/2014/5/12/4-architecture-issues-when-scaling-web-applications-bottlene.html)	
-* [Common Bottlenecks](http://highscalability.com/blog/2012/5/16/big-list-of-20-common-bottlenecks.html)
-* [Life Beyond Distributed Transactions](https://queue.acm.org/detail.cfm?id=3025012)
-* [Relying on Software to Redirect Traffic Reliably at Various Layers](https://www.usenix.org/conference/srecon15/program/presentation/taveira)
-* [Breaking Things on Purpose](https://www.usenix.org/conference/srecon17americas/program/presentation/andrus)
-* [Avoid Over Engineering](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8)
-* [Scalability Worst Practices](https://www.infoq.com/articles/scalability-worst-practices)
-* [Use Solid Technologies - Don’t Re-invent the Wheel - Keep It Simple!](https://medium.com/@DataStax/instagram-engineerings-3-rules-to-a-scalable-cloud-application-architecture-c44afed31406)
-* [Simplicity by Distributing Complexity](https://jobs.zalando.com/tech/blog/simplicity-by-distributing-complexity/)
-* [Why Over-Reusing is Bad](http://tech.transferwise.com/why-over-reusing-is-bad/)
-* [Performance is a Feature](https://blog.codinghorror.com/performance-is-a-feature/)
-* [Make Performance Part of Your Workflow](https://codeascraft.com/2014/12/11/make-performance-part-of-your-workflow/)
-* [The Benefits of Server Side Rendering over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
-* [Automate and Abstract: Lessons at Facebook](https://architecht.io/lessons-from-facebook-on-engineering-for-scale-f5716f0afc7a)
-* [AWS Do's and Don'ts](https://8thlight.com/blog/sarah-sunday/2017/09/15/aws-dos-and-donts.html)
-* [(UI) Design Doesn’t Scale - Stanley Wood, Design Director at Spotify](https://medium.com/@hellostanley/design-doesnt-scale-4d81e12cbc3e)
-* [Linux Performance](http://www.brendangregg.com/linuxperf.html)
-* [Building Fast and Resilient Web Applications - Ilya Grigorik](https://www.igvita.com/2016/05/20/building-fast-and-resilient-web-applications/)
-* [Accept Partial Failures, Minimize Service Loss](https://www.usenix.org/conference/srecon17asia/program/presentation/wang_daxin)
-* [Design for Resiliency](http://highscalability.com/blog/2012/12/31/designing-for-resiliency-will-be-so-2013.html)
-* [Design for Self-healing](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing)
-* [Design for Scaling Out](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out)	
-* [Design for Evolution](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-evolution)
-* [Learn from Mistakes](http://highscalability.com/blog/2013/8/26/reddit-lessons-learned-from-mistakes-made-scaling-to-1-billi.html)
+* [Arquitetura Limpa](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+* [Alta Coesão e Baixo Acoplamento](http://www.math-cs.gordon.edu/courses/cs211/lectures-2009/Cohesion,Coupling,MVC.pdf)
+* [Monolitos e Microsserviços](https://medium.com/@SkyscannerEng/monoliths-and-microservices-8c65708c3dbf)
+* [Teorema CAP e Compromissos](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
+* [Bancos de Dados CP e Bancos de Dados AP](https://blog.andyet.com/2014/10/01/right-database)
+* [Escalabilidade com Estado vs. Escalabilidade sem Estado](http://ithare.com/scaling-stateful-objects/)
+* [Escalando Verticalmente vs. Escalando Horizontalmente](https://www.brianjgraf.com/scalability-scale-up-scale-out-care/)
+* [Escalando Verticalmente vs. Escalando Horizontalmente: Custos Ocultos](https://blog.codinghorror.com/scaling-up-vs-scaling-out-hidden-costs/)
+* [ACID e BASE](https://neo4j.com/blog/acid-vs-base-consistency-models-explained/)
+* [Bloqueio/Desbloqueio e Síncrono/Assíncrono](https://blogs.msdn.microsoft.com/csliu/2009/08/27/io-concept-blockingnon-blocking-vs-syncasync/)
+* [Desempenho e Escalabilidade de Bancos de Dados](https://use-the-index-luke.com/sql/testing-scalability)
+* [Níveis de Isolamento de Bancos de Dados e Efeitos no Desempenho e Escalabilidade](http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html)
+* [A Probabilidade de Perda de Dados em Clusters Grandes](https://martin.kleppmann.com/2017/01/26/data-loss-in-large-clusters.html)
+* [Acesso a Dados para Soluções
 
+ Altamente Escaláveis: Usando SQL, NoSQL e Persistência Poliglota](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn271399(v=pandp.10))
+* [SQL vs NoSQL](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/)
+* [SQL vs NoSQL - Lições Aprendidas na Salesforce](https://engineering.salesforce.com/sql-or-nosql-9eaf1d92545b)
+* [Bancos de Dados NoSQL: Pesquisa e Orientações para Decisão](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
+* [Como Funciona o Shard](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
+* [Hash Consistente](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Hash Consistente: Compromissos Algorítmicos](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+* [Não Seja Enganado pelo Truque do Hash](https://booking.ai/dont-be-tricked-by-the-hashing-trick-192a6aae3087)
+* [Hash Consistente Uniforme na Netflix](https://medium.com/netflix-techblog/distributing-content-to-open-connect-3e3e391d4dc9)
+* [Consistência Eventual - Werner Vogels, CTO da Amazon](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+* [Cache é Rei](https://www.stevesouders.com/blog/2012/10/11/cache-is-king/)
+* [Anti-Caching](https://www.the-paper-trail.org/post/2014-06-06-paper-notes-anti-caching/)
+* [Entenda a Latência](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+* [Números de Latência que Todo Programador Deve Conhecer](http://norvig.com/21-days.html#answers)
+* [O Cálculo da Disponibilidade do Serviço](https://queue.acm.org/detail.cfm?id=3096459)
+* [Problemas de Arquitetura ao Escalar Aplicações Web: Gargalos, Banco de Dados, CPU, IO](http://highscalability.com/blog/2014/5/12/4-architecture-issues-when-scaling-web-applications-bottlene.html)
+* [Gargalos Comuns](http://highscalability.com/blog/2012/5/16/big-list-of-20-common-bottlenecks.html)
+* [Vida Além das Transações Distribuídas](https://queue.acm.org/detail.cfm?id=3025012)
+* [Dependendo do Software para Redirecionar Tráfego Confiavelmente em Vários Níveis](https://www.usenix.org/conference/srecon15/program/presentation/taveira)
+* [Quebrando as Coisas de Propósito](https://www.usenix.org/conference/srecon17americas/program/presentation/andrus)
+* [Evite Superengenharia](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8)
+* [
+
+Piores Práticas de Escalabilidade](https://www.infoq.com/articles/scalability-worst-practices)
+* [Use Tecnologias Sólidas - Não Reinvente a Roda - Mantenha Simples!](https://medium.com/@DataStax/instagram-engineerings-3-rules-to-a-scalable-cloud-application-architecture-c44afed31406)
+* [Simplicidade por Distribuição de Complexidade](https://jobs.zalando.com/tech/blog/simplicity-by-distributing-complexity/)
+* [Por que a Super-reutilização é Ruim](http://tech.transferwise.com/why-over-reusing-is-bad/)
+* [Desempenho é uma Característica](https://blog.codinghorror.com/performance-is-a-feature/)
+* [Faça do Desempenho Parte do seu Fluxo de Trabalho](https://codeascraft.com/2014/12/11/make-performance-part-of-your-workflow/)
+* [Os Benefícios da Renderização do Lado do Servidor em relação à Renderização do Lado do Cliente](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
+* [Automatize e Abstraia: Lições no Facebook](https://architecht.io/lessons-from-facebook-on-engineering-for-scale-f5716f0afc7a)
+* [AWS: O Que Fazer e o Que Não Fazer](https://8thlight.com/blog/sarah-sunday/2017/09/15/aws-dos-and-donts.html)
+* [(UI) Design Não Escala - Stanley Wood, Diretor de Design do Spotify](https://medium.com/@hellostanley/design-doesnt-scale-4d81e12cbc3e)
+* [Desempenho do Linux](http://www.brendangregg.com/linuxperf.html)
+* [Construindo Aplicações Web Rápidas e Resilientes - Ilya Grigorik](https://www.igvita.com/2016/05/20/building-fast-and-resilient-web-applications/)
+* [Aceite Falhas Parciais, Minimize a Perda de Serviços](https://www.usenix.org/conference/srecon17asia/program/presentation/wang_daxin)
+* [Projetando para Resiliência](http://highscalability.com/blog/2012/12/31/designing-for-resiliency-will-be-so-2013.html)
+* [Projetando para Auto-recuperação](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing)
+* [Projetando para Escalonamento Horizontal](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out)
+* [Projetando para Evolução](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-evolution)
+* [Aprenda com os Erros](http://highscalability.com/blog/2013/8/26/reddit-lessons-learned-from-mistakes-made-scaling-to-1-billi.html)
 ## Scalability
 * [Microservices and Orchestration](https://martinfowler.com/microservices/)
 	* [Domain-Oriented Microservice Architecture at Uber](https://eng.uber.com/microservice-architecture/)
